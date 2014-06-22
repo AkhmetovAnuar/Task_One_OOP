@@ -12,10 +12,10 @@ public class Runner {
         TechniqueBuilder techniqueBuilder = new TechniqueBuilder();
         Technique technique = techniqueBuilder.Build();
         System.out.println("Total Coast: " + technique.getCoast()+"$");
-        technique.printAll();
-        System.out.println("\n");
+
         technique.sortByPrice();
         technique.printAll();
+
 
     }
 }

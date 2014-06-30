@@ -8,6 +8,7 @@ import java.util.Arrays;
 import java.util.List;
 
 public class Runner {
+    
     /*
     public static void main(String[] args) {
         TechniqueBuilder techniqueBuilder = new TechniqueBuilder();
